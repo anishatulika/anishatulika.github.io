@@ -1,0 +1,87 @@
+ul {
+	width: 100%;
+}
+
+ul > li {
+	width: 25%
+}
+
+h1 {
+	margin: 4% 0;
+	font-size: 420%;
+	font-weight: 800;
+}
+
+.col-md-6> p {
+	font-size: 180%;
+	color: gray;
+}
+ @font-face {
+      font-family: Futura;
+      src: local('Futura Std');
+    }
+
+span {
+	font-weight: bold;
+	font-size: 25px;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 4px;
+}
+
+div {
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+footer {
+	background-color: rgb(0, 0, 0);
+	padding:2%;
+	padding-bottom:1%;
+	color:white;
+	font-size: 35px;
+}
+
+.social {
+    width: 100%;
+    bottom: 0;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .social a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+  }
+
+  @media screen and (max-width: 1100px) {
+	.social a {
+	   margin: 0px;
+	}
+}
+
+.links {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 5px 12px;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.active {
+	background-color: white !important;
+	font-weight: bolder;
+	color: red !important;
+}
